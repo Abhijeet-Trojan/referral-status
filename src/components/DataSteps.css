@@ -1,0 +1,64 @@
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+    background: #0ed745 !important;
+}
+
+.ant-steps-item-process .ant-steps-item-icon {
+    background-color: #fff;
+    border-color: #0ed745 !important;
+}
+
+.ant-steps-item-process .ant-steps-item-icon:focus-visible {
+    background-color: #fff;
+    border-color: #0ed745 !important;
+}
+
+/* After visiting the step */
+.ant-steps-item-finish .ant-steps-item-icon {
+    background-color: #fff;
+    border-color: #0ed745;
+}
+
+/* Line in between steps */
+.ant-steps-item-title::after {
+    height: 2px !important;
+    background: #0ed745;
+}
+
+.ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
+    background-color: #0ed745 !important;
+}
+
+/* Steps without any action */
+.ant-steps-item-wait .ant-steps-item-icon {
+    background-color: #fff;
+    border-color: #a7a7a8 !important;
+}
+
+/* Steps after clicked */
+.ant-steps-item-finish .ant-steps-item-icon {
+    background-color: #0ed745;
+    border-color: #0ed745;
+}
+
+.anticon svg{
+    color: white;
+}
+
+
+/* Table css */
+
+.dataTable table tr:nth-child(odd){
+    background-color: #f8f9fa !important;
+}
+
+.dataTable table tr:hover{
+    background-color: #f8f9fa !important;
+}
+
+.dataTable{
+    border-radius: 20px;
+}
+
+.search{
+    margin-bottom: 1rem;
+}

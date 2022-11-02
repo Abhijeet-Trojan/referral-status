@@ -1,0 +1,25 @@
+.userName{
+    font-size: large;
+    color: #252525;
+    font-weight: 600;
+}
+
+.userRole{
+    font-size: small;
+    color: #858586;
+    font-weight: 400;
+}
+
+/* Rewards css */
+
+.doller{
+    font-size: x-large;
+    color: #252525;
+    font-weight: 700;
+}
+
+.amount{
+    font-size: large;
+    color: #858586;
+    font-weight: 500;
+}
