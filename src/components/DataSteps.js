@@ -19,7 +19,7 @@ const DataSteps = () => {
     <div className='bg-slate-800'>
       <Steps current={current} onChange={onChange}>
         <Step />
-        <Step subTitle="20 days to go" />
+        <Step />
         <Step />
         <Step />
       </Steps>
